@@ -1,0 +1,92 @@
+
+@media only screen and (max-width: 600px){
+
+    header{
+        width: 100%;
+    }
+
+    #logo{
+
+        margin-right: 70px;
+    }
+
+    .navbar-brand {
+        @include centrarLogo;
+    
+    }
+
+    body{
+
+        background-size: cover;
+        overflow-x: hidden;
+         
+    }
+
+    .card{
+        width: 10rem;
+    }
+
+
+    #gridImagenes{
+
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 100vh;
+        grid-auto-flow: column;
+        align-items: center;
+        justify-items: center;
+        grid-template-areas: "a1"
+                             "a2"
+                             "a3"
+                             "a4"
+                             "a5"
+                             "a6"
+                             "a7"
+                             "a8"
+                             "a9"
+                             "a10"
+                             "a11"
+                             "a12";
+    }
+
+    #gridcuadros{
+
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, 100vw);
+        grid-auto-flow: column;
+
+    }
+
+    #tituloProductos{
+
+        text-align: center;
+
+    }
+
+    #mainComprar{
+        height: 1400px;
+    }
+
+    #cuadrosPasos{
+
+        display:grid ;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, 30vw);
+        row-gap: 35vh;
+        justify-content: center;
+        margin: 20px 0 1000px 0;
+   
+    }
+
+   #cuadroForm{
+        height: 55vh;
+        width: 50vw; 
+    }
+
+   #Enviar{
+       margin-left: 65px;
+   }
+    
+}
+

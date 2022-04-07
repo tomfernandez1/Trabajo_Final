@@ -1,0 +1,34 @@
+
+.container-sm{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: 10px rgba(131, 186, 236, 0.616) solid;
+    margin-top: 3vh;
+}
+
+#cuadroForm{
+    
+    background-color: palevioletred;
+    border: 3px orchid solid;
+    width: 20vw;
+}
+
+#consulta{
+    text-align: center;
+}
+
+#listaContacto{
+    list-style-type: none;
+}
+
+#Enviar{
+    display: flex;
+    margin-left: 140px;
+}
+
+#footerBajo{
+
+    @extend .pie;
+}

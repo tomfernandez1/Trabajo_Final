@@ -1,0 +1,217 @@
+#logo {
+  height: 110px;
+  width: 190px;
+  margin-left: 70px; }
+
+header {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  color: black;
+  list-style-type: none;
+  width: 100vw;
+  border: 1px black solid;
+  position: sticky;
+  top: 0;
+  z-index: 1; }
+
+.nav-item {
+  color: black;
+  list-style-type: none; }
+
+.nav-item:hover {
+  background-color: rgba(0, 247, 255, 0.274); }
+
+.pie, #footerBajo {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to right, #02aab0, white);
+  font-family: "Jost", sans-serif;
+  width: 100vw;
+  border: 1px black solid;
+  text-align: center;
+  justify-content: space-around; }
+
+#navFooter {
+  list-style-type: none; }
+
+main {
+  background-color: white;
+  font-family: "Jost", sans-serif; }
+
+#titulo {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px; }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  column-gap: 50px;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 20px; }
+
+.card {
+  width: 20rem; }
+
+.card-body {
+  background-color: rgba(206, 206, 206, 0.11); }
+
+#botonProductos {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px; }
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  min-height: 100%; }
+
+#nosotros {
+  margin-bottom: 5vh;
+  padding-top: 5vh;
+  text-align: center; }
+
+.cartelNosotros {
+  margin-top: 10px;
+  min-height: 400px; }
+
+#gridCuadros {
+  display: grid;
+  grid-template-columns: repeat(3, 25vw);
+  grid-template-rows: 80vh;
+  justify-content: center; }
+
+.recuadro {
+  border: 5px palevioletred solid;
+  margin-bottom: 10px;
+  padding: 0 5px 0 5px;
+  margin-left: 2vw; }
+
+#recuadro1 {
+  background-color: lightpink; }
+
+#recuadro2 {
+  background-color: #e7b1ba; }
+
+#recuadro3 {
+  background-color: #b188b9; }
+
+#cuadrosPasos {
+  display: grid;
+  grid-template-columns: repeat(3, 33vw);
+  grid-template-rows: 15vh;
+  justify-items: center;
+  height: 570px;
+  margin-top: 100px; }
+
+.pasos {
+  color: black;
+  background-color: palevioletred;
+  border: 3px orchid solid; }
+
+.container-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: 10px rgba(131, 186, 236, 0.616) solid;
+  margin-top: 3vh; }
+
+#cuadroForm {
+  background-color: palevioletred;
+  border: 3px orchid solid;
+  width: 20vw; }
+
+#consulta {
+  text-align: center; }
+
+#listaContacto {
+  list-style-type: none; }
+
+#Enviar {
+  display: flex;
+  margin-left: 140px; }
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  #logo {
+    margin-right: 70px; }
+  .navbar-brand {
+    display: flex;
+    width: 100%;
+    justify-content: center; }
+  .card {
+    width: 15rem; }
+  #gridImagenes {
+    display: grid;
+    width: 100vw;
+    height: 80vh;
+    grid-template-columns: repeat(3, 33vw);
+    grid-template-rows: 15vh;
+    row-gap: 5px;
+    grid-template-areas: "a1 a2 a3" "a4 a5 a6"  "a7 a8 a9" "a10 a11 a12";
+    justify-items: center;
+    align-items: center; }
+  #titulo {
+    margin-top: 5px; }
+  .productos {
+    max-width: 150px;
+    max-height: 150px; }
+  #gridcuadros {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 100vw);
+    grid-auto-flow: column; }
+  #cuadrosPasos {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 30vw);
+    row-gap: 30vh;
+    justify-content: center;
+    min-height: 1600px; } }
+
+@media only screen and (max-width: 600px) {
+  header {
+    width: 100%; }
+  #logo {
+    margin-right: 70px; }
+  .navbar-brand {
+    display: flex;
+    width: 100%;
+    justify-content: center; }
+  body {
+    background-size: cover;
+    overflow-x: hidden; }
+  .card {
+    width: 10rem; }
+  #gridImagenes {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 100vh;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "a1" "a2" "a3" "a4" "a5" "a6" "a7" "a8" "a9" "a10" "a11" "a12"; }
+  #gridcuadros {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 100vw);
+    grid-auto-flow: column; }
+  #tituloProductos {
+    text-align: center; }
+  #mainComprar {
+    height: 1400px; }
+  #cuadrosPasos {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 30vw);
+    row-gap: 35vh;
+    justify-content: center;
+    margin: 20px 0 1000px 0; }
+  #cuadroForm {
+    height: 55vh;
+    width: 50vw; }
+  #Enviar {
+    margin-left: 65px; } }

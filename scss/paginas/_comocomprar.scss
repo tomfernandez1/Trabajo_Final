@@ -1,0 +1,17 @@
+
+#cuadrosPasos{
+
+    display: grid;
+    grid-template-columns: repeat(3, 33vw);
+    grid-template-rows: 15vh;
+    justify-items: center;
+    height: 570px;
+    margin-top: 100px;
+}
+
+.pasos{
+    
+    color: $colorLetra;
+    background-color: palevioletred;
+    border: 3px orchid solid;
+}

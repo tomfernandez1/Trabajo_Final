@@ -1,0 +1,68 @@
+
+@media only screen and (min-width: 600px) and (max-width:992px){
+
+    #logo{
+
+        margin-right: 70px;
+    }
+
+    .navbar-brand {
+        @include centrarLogo;
+    
+    }
+
+    .card{
+        width: 15rem;
+    }
+
+
+    #gridImagenes{
+
+        display: grid;
+        width: 100vw;
+        height: 80vh;
+        grid-template-columns: repeat(3, 33vw);
+        grid-template-rows: 15vh;
+        row-gap: 5px;
+        grid-template-areas:"a1 a2 a3"
+                            "a4 a5 a6" 
+                            "a7 a8 a9"
+                            "a10 a11 a12";
+        justify-items: center;
+        align-items: center;
+    }
+
+    #titulo{
+
+        margin-top: 5px;
+    }
+
+    .productos{
+
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+
+    #gridcuadros{
+
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, 100vw);
+        grid-auto-flow: column;
+
+    }
+
+    #cuadrosPasos{
+
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, 30vw);
+        row-gap: 30vh;
+        justify-content: center;
+        min-height: 1600px;
+   
+    }
+
+    
+}

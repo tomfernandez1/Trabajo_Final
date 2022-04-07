@@ -1,0 +1,17 @@
+
+.pie{
+
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right, #02aab0, white);
+    font-family: $tipoFuente;
+    width: 100vw;
+    border: 1px black solid;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#navFooter{
+
+    list-style-type: none;
+}

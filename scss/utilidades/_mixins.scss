@@ -1,0 +1,14 @@
+
+@mixin centrarLogo {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+        
+}
+
+@mixin positionFooter {
+
+    position: absolute;
+    bottom: 0;
+}

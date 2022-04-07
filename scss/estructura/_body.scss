@@ -1,0 +1,49 @@
+
+body{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    min-height: 100%;
+    
+}
+
+#nosotros{
+    margin-bottom: 5vh;
+    padding-top: 5vh;
+    text-align: center;
+}
+
+.cartelNosotros{
+    margin-top: 10px;
+    min-height: 400px;
+
+}
+
+#gridCuadros{
+
+    display: grid;
+    grid-template-columns: repeat(3, 25vw);
+    grid-template-rows: 80vh;
+    justify-content: center;
+    
+}
+
+.recuadro {
+    border: 5px palevioletred solid; 
+    margin-bottom: 10px;
+    padding: 0 5px 0 5px;
+    margin-left: 2vw;
+}
+
+#recuadro1 {
+    background-color: lightpink;
+}
+
+#recuadro2 {
+    background-color: rgb(231, 177, 186);
+}
+
+#recuadro3 {
+    background-color: rgb(177, 136, 185);
+}
